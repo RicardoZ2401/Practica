@@ -15,11 +15,15 @@
     border-radius: 15px 15px 0px 0px;
 }.header_logo{
     display: flex;
-}.header_logo img{
+    gap: 5px;
+}
+.header_logo h2{
+    margin: auto;
+}
+.header_logo img{
     border: 1px solid red;
-
-    z-index: 10;
-    
+    border: none;
+    width: 30px;
 }
 .header_menu_button{
     display: flex;
